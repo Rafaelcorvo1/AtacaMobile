@@ -13,6 +13,6 @@ public class CarrinhoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.carrinho_);
+        setContentView(R.layout.carrinho_compras);
     }
 }
