@@ -18,10 +18,6 @@
         </activity>
         <activity android:name=".CarrinhoActivity">
             <intent-filter>
-                <action
-                    android:name="atacamobile.ACAO_EXIR_TELA" />
-                <category
-                    android:name="atacamobile.CATEGORIA_TELA" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
