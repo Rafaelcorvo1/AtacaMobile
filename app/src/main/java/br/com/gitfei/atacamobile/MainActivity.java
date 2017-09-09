@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent callTelaUm = new Intent(MainActivity.this,CarrinhoActivity.class);
         startActivity(callTelaUm);
     }
+    public void callTelaConfiguracoes(View v) {
+        Intent callTelaTres = new Intent(MainActivity.this,br.com.gitfei.atacamobile.ConfiguracoesActivity.class);
+        startActivity(callTelaTres);
+    }
 }
